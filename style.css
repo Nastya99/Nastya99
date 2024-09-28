@@ -1,0 +1,41 @@
+h1{
+  text-align: center;
+  color: blue;
+}
+.light{
+  width: 180px;
+  height: 460px;
+  margin: auto;
+  background-image: url(img/light.png);
+  background-color: lightblue;
+  border-radius: 20px;
+  transition: 1s;
+}
+.light:hover{
+  border-radius: 0px;
+ 
+}
+.red{
+  background-image: url("img/red.png");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 15.4%;
+  left: 47.1%;
+}
+.yellow{
+  background-image: url("img/yellow.png");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 31.4%;
+  left: 47.1%;
+}
+.blue{
+  background-image: url("img/blue.png");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 47.8%;
+  left: 47%;
+}
